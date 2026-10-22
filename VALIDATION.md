@@ -1,9 +1,9 @@
 # Prüfbericht · mucsandy
 
-Prüfstand: 22. Oktober 2026, Europe/Berlin. Die gelesene GitHub-Kalenderspanne
-endet am 21. Oktober 2026 in UTC; dieser Unterschied ist durch die Zeitzonen
-bedingt. Es wurden keine Tage oder Beiträge ergänzt, um das lokale Datum
-vorwegzunehmen.
+Prüfstand: 22. Oktober 2026. Das Profil wurde auf `main` veröffentlicht und
+der erste gehostete Workflow-Lauf erfolgreich abgeschlossen. Die gelesene
+GitHub-Kalenderspanne endet am 22. Oktober 2026 in UTC. Es wurden keine Tage
+oder Beiträge ergänzt, die nicht in der öffentlichen Quelle vorhanden sind.
 
 ## Erzeugte Panels
 
@@ -20,20 +20,23 @@ Die Heatmap wird darüber mit 850 Pixeln Breite eingebettet.
 ## Tatsächlich gelesene Beiträge
 
 Quelle: <https://github.com/users/mucsandy/contributions>, ohne Authentifizierung.
-Der gespeicherte Datenstand steht in `data/contributions.json`.
+Der gespeicherte Datenstand steht in `data/contributions.json`. Die folgenden
+Werte beschreiben den Snapshot des ersten automatischen Laufs; spätere tägliche
+Aktualisierungen können davon abweichen.
 
 | Eigenschaft | Wert |
 | --- | --- |
-| Beobachteter Zeitraum | 2025-10-19 bis 2026-10-21, UTC |
-| Beobachtete Tage | 368 |
+| Beobachteter Zeitraum | 2025-10-19 bis 2026-10-22, UTC |
+| Beobachtete Tage | 369 |
 | Wochenspalten | 53, Sonntag zuerst |
-| Kommende Randzellen | 3, nur als Umriss und ohne erfundene Anzahl |
-| Beiträge im Zeitraum | 8 |
-| Aktive Tage | 2 |
-| Längste Serie im Zeitraum | 1 Tag |
-| Aktuelle Serie am letzten Quelldatum | 1 Tag |
+| Kommende Randzellen | 2, nur als Umriss und ohne erfundene Anzahl |
+| Beiträge im Zeitraum | 10 |
+| Aktive Tage | 3 |
+| Längste Serie im Zeitraum | 2 Tage |
+| Aktuelle Serie am letzten Quelldatum | 2 Tage |
 
-Die beiden Tage mit Beiträgen sind 2026-02-13 mit 7 und 2026-10-21 mit 1.
+Die Tage mit Beiträgen sind 2026-02-13 mit 7, 2026-10-21 mit 1 und
+2026-10-22 mit 2.
 Die Summe aller über IDs zugeordneten Tooltips stimmt mit GitHubs Gesamtzahl
 überein. Die Farbintensitäten wurden separat aus `data-level` übernommen.
 
@@ -61,6 +64,11 @@ Rahmen ist einschließlich seines ein Pixel breiten Strichs innerhalb der
 SVG-Grenzen.
 
 ## Prüfung im echten Browser
+
+Die Browserprüfungen erfolgten vor der Veröffentlichung mit dem Kalenderstand
+vom 21. Oktober. Der erste automatische Lauf hat anschließend nur die
+Kalenderdaten und die daraus erzeugte Heatmap aktualisiert und deren XML,
+Ressourcen und Geometrie erneut geprüft.
 
 Chromium 134.0.6998.35 hat die tatsächlichen `getBBox()`-Grenzen einschließlich
 Strichbreiten geprüft: 137 sichtbare Zeichenelemente im Porträt, 32 in der Karte
@@ -138,7 +146,28 @@ python scripts/validate_svg.py
 Die Befehle zum Erzeugen und Prüfen statischer Vorschauen stehen in
 [`SETUP.md`](SETUP.md#4-statische-vorschau).
 
-Die GitHub-Action wurde lokal in Syntax und Arbeitsschritten geprüft. Ein
-gehosteter Workflow-Lauf und die Veröffentlichung im GitHub-Profil wurden
-nicht ausgeführt; dafür müssen die Dateien im öffentlichen Profil-Repository
-`mucsandy/mucsandy` auf dessen Standardbranch liegen.
+## Veröffentlichung und erster GitHub-Lauf
+
+Das öffentliche [Profil](https://github.com/mucsandy) und das
+[Repository](https://github.com/mucsandy/mucsandy) liefern das fertige README.
+Die drei tatsächlich im Profil eingebetteten Bild-URLs wurden abgerufen:
+alle liefern HTTP 200, `image/svg+xml` und gültiges SVG-XML. Überschriften,
+zentrierte Tabelle, `valign="top"`, Bildmaße und Footer-Links sind auch im
+ausgelieferten Profil-HTML vorhanden.
+
+Die Veröffentlichung erfolgte mit
+[Commit `856a769`](https://github.com/mucsandy/mucsandy/commit/856a769d25b46f7ad250717e613313a264055fc0).
+Der Dateibaum auf GitHub stimmt exakt mit dem zuvor geprüften lokalen Dateibaum
+überein.
+
+[Workflow-Lauf #1](https://github.com/mucsandy/mucsandy/actions/runs/39697379030)
+wurde durch diesen Push gestartet und am 22. Oktober 2026 um 00:04 UTC mit
+`success` abgeschlossen. Checkout, Python-Setup, Installation der beiden
+Abhängigkeiten, öffentlicher Datenabruf, Rendering, SVG-Validierung und
+automatischer Commit waren erfolgreich.
+
+Der Bot hat mit
+[Commit `4ee8572`](https://github.com/mucsandy/mucsandy/commit/4ee8572)
+ausschließlich `contrib-heatmap.svg` und `data/contributions.json` aktualisiert.
+Die Nachricht enthält `[skip ci]`. Damit ist auch das Zurückschreiben in das
+Repository praktisch bestätigt. Der tägliche Zeitplan bleibt auf 03:17 UTC.

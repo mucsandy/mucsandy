@@ -1,0 +1,13 @@
+# Keep the original photograph and model cache local.
+assets/*
+!assets/.gitkeep
+!assets/README.md
+.cache/
+.u2net/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+previews/
+*.tmp

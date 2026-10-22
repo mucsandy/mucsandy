@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="479" viewBox="0 0 620 479" role="img" aria-labelledby="panel-title panel-description" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Monaco,'Courier New',monospace">
+  <title id="panel-title">profile / neofetch</title>
+  <desc id="panel-description">mucsandy: Role: IT Solution Architekt; Now: Malteser Hilfsdienst · DE; Focus: AI · LLM Integration; Build: agentic pipelines; Stack: MS Copilot Agents; Langs: IT Native · RU Native; DE Native · EN C1; Loc: Munich, GER; Web: in Progress...</desc>
+  <style>
+@keyframes appear { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .motion { animation: none !important; opacity: 1 !important; clip-path: none !important; } }
+</style>
+  <rect x="0.5" y="0.5" width="619" height="478" rx="10" fill="#0d1117" stroke="#21262d" stroke-width="1" />
+  <line x1="0.5" y1="42" x2="619.5" y2="42" stroke="#21262d" />
+  <circle cx="19" cy="21" r="3.5" fill="#b66b73" />
+  <circle cx="32" cy="21" r="3.5" fill="#c7a56a" />
+  <circle cx="45" cy="21" r="3.5" fill="#75ad88" />
+  <text x="64" y="25" fill="#8b949e" font-size="10.5" text-anchor="start" textLength="115.29" lengthAdjust="spacingAndGlyphs">profile / neofetch</text>
+  <text x="30" y="77" fill="#8b949e" font-size="13" text-anchor="start" textLength="158.6" lengthAdjust="spacingAndGlyphs">$ neofetch --profile</text>
+  <g class="motion" style="animation:appear 0.3s ease-out 0.12s 1 both">
+    <text x="30" y="114" fill="#7ee2b8" font-size="22" text-anchor="start" textLength="201.3" lengthAdjust="spacingAndGlyphs">mucsandy@github</text>
+  </g>
+  <line x1="30" y1="134" x2="590" y2="134" stroke="#21262d" />
+  <g class="motion" style="animation:appear 0.32s ease-out 0.26s 1 both">
+    <text x="30" y="170" fill="#7ee2b8" font-size="18" text-anchor="start" textLength="43.92" lengthAdjust="spacingAndGlyphs">Role</text>
+    <text x="114.9" y="170" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="230.58" lengthAdjust="spacingAndGlyphs">IT Solution Architekt</text>
+  </g>
+  <g class="motion" style="animation:appear 0.32s ease-out 0.365s 1 both">
+    <text x="30" y="201" fill="#7ee2b8" font-size="18" text-anchor="start" textLength="32.94" lengthAdjust="spacingAndGlyphs">Now</text>
+    <text x="114.9" y="201" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="274.5" lengthAdjust="spacingAndGlyphs">Malteser Hilfsdienst · DE</text>
+  </g>
+  <g class="motion" style="animation:appear 0.32s ease-out 0.47s 1 both">
+    <text x="30" y="232" fill="#7ee2b8" font-size="18" text-anchor="start" textLength="54.9" lengthAdjust="spacingAndGlyphs">Focus</text>
+    <text x="114.9" y="232" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="219.6" lengthAdjust="spacingAndGlyphs">AI · LLM Integration</text>
+  </g>
+  <g class="motion" style="animation:appear 0.32s ease-out 0.575s 1 both">
+    <text x="30" y="263" fill="#7ee2b8" font-size="18" text-anchor="start" textLength="54.9" lengthAdjust="spacingAndGlyphs">Build</text>
+    <text x="114.9" y="263" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="186.66" lengthAdjust="spacingAndGlyphs">agentic pipelines</text>
+  </g>
+  <g class="motion" style="animation:appear 0.32s ease-out 0.68s 1 both">
+    <text x="30" y="294" fill="#7ee2b8" font-size="18" text-anchor="start" textLength="54.9" lengthAdjust="spacingAndGlyphs">Stack</text>
+    <text x="114.9" y="294" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="186.66" lengthAdjust="spacingAndGlyphs">MS Copilot Agents</text>
+  </g>
+  <g class="motion" style="animation:appear 0.32s ease-out 0.785s 1 both">
+    <text x="30" y="325" fill="#7ee2b8" font-size="18" text-anchor="start" textLength="54.9" lengthAdjust="spacingAndGlyphs">Langs</text>
+    <text x="114.9" y="325" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="230.58" lengthAdjust="spacingAndGlyphs">IT Native · RU Native</text>
+  </g>
+  <g class="motion" style="animation:appear 0.32s ease-out 0.89s 1 both">
+    <text x="114.9" y="356" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="186.66" lengthAdjust="spacingAndGlyphs">DE Native · EN C1</text>
+  </g>
+  <g class="motion" style="animation:appear 0.32s ease-out 0.995s 1 both">
+    <text x="30" y="387" fill="#7ee2b8" font-size="18" text-anchor="start" textLength="32.94" lengthAdjust="spacingAndGlyphs">Loc</text>
+    <text x="114.9" y="387" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="120.78" lengthAdjust="spacingAndGlyphs">Munich, GER</text>
+  </g>
+  <g class="motion" style="animation:appear 0.32s ease-out 1.1s 1 both">
+    <text x="30" y="418" fill="#7ee2b8" font-size="18" text-anchor="start" textLength="32.94" lengthAdjust="spacingAndGlyphs">Web</text>
+    <text x="114.9" y="418" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="153.72" lengthAdjust="spacingAndGlyphs">in Progress...</text>
+  </g>
+  <g class="motion" style="animation:appear 0.3s ease-out 1.305s 1 both">
+    <rect x="30" y="447" width="16" height="8" rx="1" fill="#21262d" />
+    <rect x="51" y="447" width="16" height="8" rx="1" fill="#354b44" />
+    <rect x="72" y="447" width="16" height="8" rx="1" fill="#48675b" />
+    <rect x="93" y="447" width="16" height="8" rx="1" fill="#5b8d77" />
+    <rect x="114" y="447" width="16" height="8" rx="1" fill="#6fb698" />
+    <rect x="135" y="447" width="16" height="8" rx="1" fill="#7ee2b8" />
+  </g>
+</svg>

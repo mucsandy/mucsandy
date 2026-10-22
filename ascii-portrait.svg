@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="580" viewBox="0 0 440 580" role="img" aria-labelledby="panel-title panel-description" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Monaco,'Courier New',monospace">
+  <title id="panel-title">portrait.sh</title>
+  <desc id="panel-description">Monochrome ASCII portrait. Rows type once, then remain visible.</desc>
+  <style>
+@keyframes appear { from { opacity: 0; } to { opacity: 1; } }
+@keyframes type-row { from { width: 0px; } to { width: 392px; } }
+@media (prefers-reduced-motion: reduce) { .motion { animation: none !important; opacity: 1 !important; clip-path: none !important; } }
+</style>
+  <rect x="0.5" y="0.5" width="439" height="579" rx="10" fill="#0d1117" stroke="#21262d" stroke-width="1" />
+  <line x1="0.5" y1="42" x2="439.5" y2="42" stroke="#21262d" />
+  <circle cx="19" cy="21" r="3.5" fill="#b66b73" />
+  <circle cx="32" cy="21" r="3.5" fill="#c7a56a" />
+  <circle cx="45" cy="21" r="3.5" fill="#75ad88" />
+  <text x="64" y="25" fill="#8b949e" font-size="10.5" text-anchor="start" textLength="70.455" lengthAdjust="spacingAndGlyphs">portrait.sh</text>
+  <text x="24" y="68" fill="#8b949e" font-size="11" text-anchor="start" textLength="107.36" lengthAdjust="spacingAndGlyphs">$ render --ascii</text>
+  <text x="416" y="68" fill="#7ee2b8" font-size="10" text-anchor="end" textLength="12.2" lengthAdjust="spacingAndGlyphs">01</text>
+  <defs>
+    <clipPath id="row-2" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="103.2" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.396s 1 both" />
+    </clipPath>
+    <clipPath id="row-3" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="111.8" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.444s 1 both" />
+    </clipPath>
+    <clipPath id="row-4" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="120.4" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.492s 1 both" />
+    </clipPath>
+    <clipPath id="row-5" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="129" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.54s 1 both" />
+    </clipPath>
+    <clipPath id="row-6" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="137.6" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.588s 1 both" />
+    </clipPath>
+    <clipPath id="row-7" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="146.2" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.636s 1 both" />
+    </clipPath>
+    <clipPath id="row-8" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="154.8" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.684s 1 both" />
+    </clipPath>
+    <clipPath id="row-9" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="163.4" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.732s 1 both" />
+    </clipPath>
+    <clipPath id="row-10" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="172" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.78s 1 both" />
+    </clipPath>
+    <clipPath id="row-11" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="180.6" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.828s 1 both" />
+    </clipPath>
+    <clipPath id="row-12" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="189.2" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.876s 1 both" />
+    </clipPath>
+    <clipPath id="row-13" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="197.8" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.924s 1 both" />
+    </clipPath>
+    <clipPath id="row-14" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="206.4" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 0.972s 1 both" />
+    </clipPath>
+    <clipPath id="row-15" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="215" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.02s 1 both" />
+    </clipPath>
+    <clipPath id="row-16" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="223.6" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.068s 1 both" />
+    </clipPath>
+    <clipPath id="row-17" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="232.2" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.116s 1 both" />
+    </clipPath>
+    <clipPath id="row-18" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="240.8" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.164s 1 both" />
+    </clipPath>
+    <clipPath id="row-19" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="249.4" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.212s 1 both" />
+    </clipPath>
+    <clipPath id="row-20" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="258" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.26s 1 both" />
+    </clipPath>
+    <clipPath id="row-21" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="266.6" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.308s 1 both" />
+    </clipPath>
+    <clipPath id="row-22" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="275.2" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.356s 1 both" />
+    </clipPath>
+    <clipPath id="row-23" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="283.8" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.404s 1 both" />
+    </clipPath>
+    <clipPath id="row-24" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="292.4" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.452s 1 both" />
+    </clipPath>
+    <clipPath id="row-25" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="301" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.5s 1 both" />
+    </clipPath>
+    <clipPath id="row-26" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="309.6" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.548s 1 both" />
+    </clipPath>
+    <clipPath id="row-27" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="318.2" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.596s 1 both" />
+    </clipPath>
+    <clipPath id="row-28" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="326.8" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.644s 1 both" />
+    </clipPath>
+    <clipPath id="row-29" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="335.4" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.692s 1 both" />
+    </clipPath>
+    <clipPath id="row-30" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="344" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.74s 1 both" />
+    </clipPath>
+    <clipPath id="row-31" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="352.6" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.788s 1 both" />
+    </clipPath>
+    <clipPath id="row-32" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="361.2" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.836s 1 both" />
+    </clipPath>
+    <clipPath id="row-33" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="369.8" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.884s 1 both" />
+    </clipPath>
+    <clipPath id="row-34" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="378.4" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.932s 1 both" />
+    </clipPath>
+    <clipPath id="row-35" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="387" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 1.98s 1 both" />
+    </clipPath>
+    <clipPath id="row-36" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="395.6" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.028s 1 both" />
+    </clipPath>
+    <clipPath id="row-37" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="404.2" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.076s 1 both" />
+    </clipPath>
+    <clipPath id="row-38" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="412.8" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.124s 1 both" />
+    </clipPath>
+    <clipPath id="row-39" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="421.4" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.172s 1 both" />
+    </clipPath>
+    <clipPath id="row-40" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="430" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.22s 1 both" />
+    </clipPath>
+    <clipPath id="row-41" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="438.6" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.268s 1 both" />
+    </clipPath>
+    <clipPath id="row-42" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="447.2" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.316s 1 both" />
+    </clipPath>
+    <clipPath id="row-43" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="455.8" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.364s 1 both" />
+    </clipPath>
+    <clipPath id="row-44" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="464.4" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.412s 1 both" />
+    </clipPath>
+    <clipPath id="row-45" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="473" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.46s 1 both" />
+    </clipPath>
+    <clipPath id="row-46" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="481.6" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.508s 1 both" />
+    </clipPath>
+    <clipPath id="row-47" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="490.2" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.556s 1 both" />
+    </clipPath>
+    <clipPath id="row-48" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="498.8" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.604s 1 both" />
+    </clipPath>
+    <clipPath id="row-49" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="507.4" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.652s 1 both" />
+    </clipPath>
+    <clipPath id="row-50" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="516" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.7s 1 both" />
+    </clipPath>
+    <clipPath id="row-51" clipPathUnits="userSpaceOnUse">
+      <rect x="24" y="524.6" width="392" height="12.6" rx="0" fill="#ffffff" class="motion" style="animation:type-row 0.048s steps(84,end) 2.748s 1 both" />
+    </clipPath>
+  </defs>
+  <g data-row="2" class="ascii-row" clip-path="url(#row-2)">
+    <text x="187.3333" y="113.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+  </g>
+  <g data-row="3" class="ascii-row" clip-path="url(#row-3)">
+    <text x="145.3333" y="121.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="98" lengthAdjust="spacingAndGlyphs" class="ascii-run">.````::::`::::::``...</text>
+  </g>
+  <g data-row="4" class="ascii-row" clip-path="url(#row-4)">
+    <text x="131.3333" y="130.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="84" lengthAdjust="spacingAndGlyphs" class="ascii-run">.:+++=-:::````....</text>
+    <text x="238.6667" y="130.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="37.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.``.....</text>
+  </g>
+  <g data-row="5" class="ascii-row" clip-path="url(#row-5)">
+    <text x="117.3333" y="139.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="70" lengthAdjust="spacingAndGlyphs" class="ascii-run">.+*+::`:`:``...</text>
+    <text x="266.6667" y="139.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="28" lengthAdjust="spacingAndGlyphs" class="ascii-run">......</text>
+  </g>
+  <g data-row="6" class="ascii-row" clip-path="url(#row-6)">
+    <text x="112.6667" y="147.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="88.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">:cc=`....```...```.</text>
+    <text x="294.6667" y="147.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="14" lengthAdjust="spacingAndGlyphs" class="ascii-run">`:.</text>
+  </g>
+  <g data-row="7" class="ascii-row" clip-path="url(#row-7)">
+    <text x="108" y="156.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="18.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">=s+`</text>
+    <text x="164" y="156.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="56" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`::```:`...</text>
+    <text x="299.3333" y="156.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="18.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">-:`.</text>
+  </g>
+  <g data-row="8" class="ascii-row" clip-path="url(#row-8)">
+    <text x="103.3333" y="164.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="14" lengthAdjust="spacingAndGlyphs" class="ascii-run">.=:</text>
+    <text x="168.6667" y="164.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="42" lengthAdjust="spacingAndGlyphs" class="ascii-run">.::`..``.</text>
+    <text x="215.3333" y="164.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..</text>
+    <text x="318" y="164.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..</text>
+  </g>
+  <g data-row="9" class="ascii-row" clip-path="url(#row-9)">
+    <text x="103.3333" y="173.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">:.</text>
+    <text x="173.3333" y="173.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="28" lengthAdjust="spacingAndGlyphs" class="ascii-run">..`:`.</text>
+    <text x="313.3333" y="173.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="18.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">..`:</text>
+  </g>
+  <g data-row="10" class="ascii-row" clip-path="url(#row-10)">
+    <text x="98.6667" y="182.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">`.</text>
+    <text x="145.3333" y="182.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..</text>
+    <text x="196.6667" y="182.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..</text>
+    <text x="327.3333" y="182.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="14" lengthAdjust="spacingAndGlyphs" class="ascii-run">`:.</text>
+  </g>
+  <g data-row="11" class="ascii-row" clip-path="url(#row-11)">
+    <text x="94" y="190.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">`</text>
+    <text x="136" y="190.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="32.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">....```</text>
+    <text x="196.6667" y="190.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..</text>
+    <text x="224.6667" y="190.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="32.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">..``...</text>
+    <text x="276" y="190.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="23.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..``.</text>
+    <text x="336.6667" y="190.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">``</text>
+  </g>
+  <g data-row="12" class="ascii-row" clip-path="url(#row-12)">
+    <text x="89.3333" y="199.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="122" y="199.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="191.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`:=+*****+++====*+====++++==---:-:----:`</text>
+    <text x="341.3333" y="199.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`</text>
+  </g>
+  <g data-row="13" class="ascii-row" clip-path="url(#row-13)">
+    <text x="84.6667" y="207.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="103.3333" y="207.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="219.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..`-+cssscsSSSS#####SSSsssscccccsssssc*++++==-`</text>
+    <text x="346" y="207.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`</text>
+  </g>
+  <g data-row="14" class="ascii-row" clip-path="url(#row-14)">
+    <text x="80" y="216.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="98.6667" y="216.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="228.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">`:-+csssssS####%#%%%%%%##SSSSSsSSSSSSSsc*****++=`</text>
+    <text x="350.6667" y="216.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">`.</text>
+  </g>
+  <g data-row="15" class="ascii-row" clip-path="url(#row-15)">
+    <text x="80" y="225.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="98.6667" y="225.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="233.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.:=csssSS#####%%%%%%##%###SSSSSSSSSSSscc**cc*+++-`</text>
+    <text x="350.6667" y="225.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`</text>
+  </g>
+  <g data-row="16" class="ascii-row" clip-path="url(#row-16)">
+    <text x="80" y="233.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">`</text>
+    <text x="98.6667" y="233.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="238" lengthAdjust="spacingAndGlyphs" class="ascii-run">.=*csSSS#####%%%%%%%%#####SSSSSSSS##Sscccccc++++=:.</text>
+    <text x="350.6667" y="233.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..</text>
+  </g>
+  <g data-row="17" class="ascii-row" clip-path="url(#row-17)">
+    <text x="75.3333" y="242.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`</text>
+    <text x="98.6667" y="242.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="238" lengthAdjust="spacingAndGlyphs" class="ascii-run">:*csS#SS####%%%%%%%%%%#####SSSSSS###SSssccc*++++=-`</text>
+    <text x="350.6667" y="242.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`</text>
+  </g>
+  <g data-row="18" class="ascii-row" clip-path="url(#row-18)">
+    <text x="75.3333" y="250.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..</text>
+    <text x="98.6667" y="250.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="242.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">=*sS#########%%%%%#########SSSSS#####SSSsss*+++++=:.</text>
+    <text x="350.6667" y="250.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">`:</text>
+  </g>
+  <g data-row="19" class="ascii-row" clip-path="url(#row-19)">
+    <text x="75.3333" y="259.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..</text>
+    <text x="94" y="259.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="247.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.*csS###SS##%#%%%%%##############%#####SSssc*+++++==`</text>
+    <text x="350.6667" y="259.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">:</text>
+  </g>
+  <g data-row="20" class="ascii-row" clip-path="url(#row-20)">
+    <text x="80" y="268.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="94" y="268.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="247.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">`*SS###SSS##%%%%%%%%##SSSS####%%%%%##%###Ssc*+++++++=</text>
+    <text x="350.6667" y="268.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">`</text>
+  </g>
+  <g data-row="21" class="ascii-row" clip-path="url(#row-21)">
+    <text x="80" y="276.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="94" y="276.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="261.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">`*sSSS#SS##%%%%%%%%%%#SSSS###%%%%%###%##SSSsc*++++++*...</text>
+  </g>
+  <g data-row="22" class="ascii-row" clip-path="url(#row-22)">
+    <text x="80" y="285.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="94" y="285.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="256.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">`*sSSSSSssSS####SSssssssSS###%%#Ssssscssssc*+==+++=+*..</text>
+  </g>
+  <g data-row="23" class="ascii-row" clip-path="url(#row-23)">
+    <text x="84.6667" y="293.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="94" y="293.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="214.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.*css*=--==---::`:::-++*cccssSsc+=-::```:````.</text>
+    <text x="318" y="293.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="32.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">`=+*c.`</text>
+  </g>
+  <g data-row="24" class="ascii-row" clip-path="url(#row-24)">
+    <text x="84.6667" y="302.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="98.6667" y="302.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="46.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">+cc-..`.`.</text>
+    <text x="187.3333" y="302.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="70" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`:-=++***+=:..</text>
+    <text x="322.6667" y="302.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="28" lengthAdjust="spacingAndGlyphs" class="ascii-run">.=**..</text>
+  </g>
+  <g data-row="25" class="ascii-row" clip-path="url(#row-25)">
+    <text x="89.3333" y="311.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="98.6667" y="311.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="46.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">-c*-````..</text>
+    <text x="196.6667" y="311.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="46.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`-=**+=:`</text>
+    <text x="304" y="311.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="42" lengthAdjust="spacingAndGlyphs" class="ascii-run">.....=*+.</text>
+  </g>
+  <g data-row="26" class="ascii-row" clip-path="url(#row-26)">
+    <text x="84.6667" y="319.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="56" lengthAdjust="spacingAndGlyphs" class="ascii-run">`:`:cc+=-:`.</text>
+    <text x="150" y="319.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="32.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">`---:..</text>
+    <text x="196.6667" y="319.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="42" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`-*SSc=`</text>
+    <text x="266.6667" y="319.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="28" lengthAdjust="spacingAndGlyphs" class="ascii-run">...``.</text>
+    <text x="308.6667" y="319.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="51.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`:-=*=.`=:</text>
+  </g>
+  <g data-row="27" class="ascii-row" clip-path="url(#row-27)">
+    <text x="80" y="328.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="79.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">`cs-`csc*+=-:``..</text>
+    <text x="182.6667" y="328.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="196.6667" y="328.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="46.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.:+s%%#+`.</text>
+    <text x="304" y="328.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="56" lengthAdjust="spacingAndGlyphs" class="ascii-run">..`:--*-`+=.</text>
+  </g>
+  <g data-row="28" class="ascii-row" clip-path="url(#row-28)">
+    <text x="84.6667" y="336.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="84" lengthAdjust="spacingAndGlyphs" class="ascii-run">=sc:csssc+=-:`-=-.</text>
+    <text x="173.3333" y="336.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="98" lengthAdjust="spacingAndGlyphs" class="ascii-run">.--.:+=*S%%%*`....:+`</text>
+    <text x="276" y="336.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="18.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.:-`</text>
+    <text x="304" y="336.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="56" lengthAdjust="spacingAndGlyphs" class="ascii-run">..`--=c==*+.</text>
+  </g>
+  <g data-row="29" class="ascii-row" clip-path="url(#row-29)">
+    <text x="84.6667" y="345.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="275.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">+s+-csS#SSsSsc=+++----+cc*sS%%#s-``-==+++=-:`:======+*=-+*.</text>
+  </g>
+  <g data-row="30" class="ascii-row" clip-path="url(#row-30)">
+    <text x="84.6667" y="354.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="275.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">+s=*ccS##%%###SscccccS##SSsS%%#s=`-=*ssssscccccc**+==c+`:+`</text>
+  </g>
+  <g data-row="31" class="ascii-row" clip-path="url(#row-31)">
+    <text x="84.6667" y="362.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="275.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">+sccccsS#%%%%%%%%####%%%SssSS%#s=::=cS########Sssc*++**+:+.</text>
+  </g>
+  <g data-row="32" class="ascii-row" clip-path="url(#row-32)">
+    <text x="84.6667" y="371.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="275.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">cSSs*ccsS#%%%%%%%%%%%%%SccssS%%S+-:-+sS########Ssc++=***-=.</text>
+  </g>
+  <g data-row="33" class="ascii-row" clip-path="url(#row-33)">
+    <text x="84.6667" y="379.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="270.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">*SS#*++csS########%%%%#scccsS%%S+-::=*s###SSSSsc*+===*=--=</text>
+  </g>
+  <g data-row="34" class="ascii-row" clip-path="url(#row-34)">
+    <text x="84.6667" y="388.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="270.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">`SSc==+**sssSS####%%%%Ss*ccS%%%#s*-`-+cSSSSSss*+=----=:=*:</text>
+  </g>
+  <g data-row="35" class="ascii-row" clip-path="url(#row-35)">
+    <text x="89.3333" y="397.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="261.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">+**+=====csssSS#####SS***c#%%###c=::=*cssscc*+=-:::+===-</text>
+  </g>
+  <g data-row="36" class="ascii-row" clip-path="url(#row-36)">
+    <text x="89.3333" y="405.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="154" lengthAdjust="spacingAndGlyphs" class="ascii-run">.++:=====+*ccsSSSSSSss*=:.-cc+*+`</text>
+    <text x="252.6667" y="405.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="93.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">:=+*cccc+=--::`-+.``</text>
+  </g>
+  <g data-row="37" class="ascii-row" clip-path="url(#row-37)">
+    <text x="108" y="414.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="116.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">`+=+++*ccsSSSSSSSS#s:``..</text>
+    <text x="248" y="414.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="84" lengthAdjust="spacingAndGlyphs" class="ascii-run">.-=+*****+=--:::=-</text>
+  </g>
+  <g data-row="38" class="ascii-row" clip-path="url(#row-38)">
+    <text x="108" y="422.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="116.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.+++++*ccsSSsSS###Sc+++=`</text>
+    <text x="234" y="422.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="98" lengthAdjust="spacingAndGlyphs" class="ascii-run">...`:--++***+=--::-+:</text>
+  </g>
+  <g data-row="39" class="ascii-row" clip-path="url(#row-39)">
+    <text x="112.6667" y="431.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="130.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">++++***cssSSSSSc+=---+=-=-`.</text>
+    <text x="248" y="431.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="84" lengthAdjust="spacingAndGlyphs" class="ascii-run">...`--++++--:::-*.</text>
+  </g>
+  <g data-row="40" class="ascii-row" clip-path="url(#row-40)">
+    <text x="112.6667" y="440.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="144.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">=*+=+***sSSsc--:-==**sssSSc=-:.</text>
+    <text x="271.3333" y="440.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="56" lengthAdjust="spacingAndGlyphs" class="ascii-run">.-++=-::::-+</text>
+  </g>
+  <g data-row="41" class="ascii-row" clip-path="url(#row-41)">
+    <text x="112.6667" y="448.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="126" lengthAdjust="spacingAndGlyphs" class="ascii-run">`*++++*ccSSs+`..``...`:::`.</text>
+    <text x="243.3333" y="448.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="14" lengthAdjust="spacingAndGlyphs" class="ascii-run">...</text>
+    <text x="276" y="448.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="51.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">`-=--:---=-</text>
+  </g>
+  <g data-row="42" class="ascii-row" clip-path="url(#row-42)">
+    <text x="117.3333" y="457.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="210" lengthAdjust="spacingAndGlyphs" class="ascii-run">=*++++*cssc+--+=-==+=---::::`.`::``----::--+.</text>
+  </g>
+  <g data-row="43" class="ascii-row" clip-path="url(#row-43)">
+    <text x="117.3333" y="465.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="205.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.++++++*ccccsSSs***ssscssc=-:-=++=---:::--=*</text>
+  </g>
+  <g data-row="44" class="ascii-row" clip-path="url(#row-44)">
+    <text x="122" y="474.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="205.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.=++===+*csSSss*=-::::-:```:-=+=--::::::-=+.</text>
+  </g>
+  <g data-row="45" class="ascii-row" clip-path="url(#row-45)">
+    <text x="126.6667" y="483.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="200.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.:--===+csssssc*=::````::-====--::::```:-+:</text>
+  </g>
+  <g data-row="46" class="ascii-row" clip-path="url(#row-46)">
+    <text x="136" y="491.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="191.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">::`:-=*csS#%###%%#ssssssc*++=-:``...`-+*=</text>
+    <text x="332" y="491.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+  </g>
+  <g data-row="47" class="ascii-row" clip-path="url(#row-47)">
+    <text x="136" y="500.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="149.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">`*-..`-=*sS%%%%%#SsSSSSSsc*=-`..</text>
+    <text x="299.3333" y="500.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="28" lengthAdjust="spacingAndGlyphs" class="ascii-run">`-++*=</text>
+    <text x="336.6667" y="500.35" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..</text>
+  </g>
+  <g data-row="48" class="ascii-row" clip-path="url(#row-48)">
+    <text x="136" y="508.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="23.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">:sc=`</text>
+    <text x="168.6667" y="508.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="102.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`-+*cssc*+=+***+=-:`.</text>
+    <text x="290" y="508.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="37.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">.:=++**+</text>
+    <text x="341.3333" y="508.95" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">`.</text>
+  </g>
+  <g data-row="49" class="ascii-row" clip-path="url(#row-49)">
+    <text x="136" y="517.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="32.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.Ssc+-.</text>
+    <text x="187.3333" y="517.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="56" lengthAdjust="spacingAndGlyphs" class="ascii-run">.````...```.</text>
+    <text x="276" y="517.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="51.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..`-=+++*+=</text>
+    <text x="341.3333" y="517.55" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="14" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`.</text>
+  </g>
+  <g data-row="50" class="ascii-row" clip-path="url(#row-50)">
+    <text x="140.6667" y="526.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="46.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">cSsc*=:`..</text>
+    <text x="266.6667" y="526.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="60.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">..`:-=++++++-</text>
+    <text x="346" y="526.15" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="14" lengthAdjust="spacingAndGlyphs" class="ascii-run">...</text>
+  </g>
+  <g data-row="51" class="ascii-row" clip-path="url(#row-51)">
+    <text x="126.6667" y="534.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="4.6667" lengthAdjust="spacingAndGlyphs" class="ascii-run">.</text>
+    <text x="140.6667" y="534.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="56" lengthAdjust="spacingAndGlyphs" class="ascii-run">+ssssc+=-:`.</text>
+    <text x="257.3333" y="534.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="70" lengthAdjust="spacingAndGlyphs" class="ascii-run">.`::-==-=+++=-`</text>
+    <text x="355.3333" y="534.75" fill="#d3e3dc" font-size="8.15" text-anchor="start" textLength="9.3333" lengthAdjust="spacingAndGlyphs" class="ascii-run">..</text>
+  </g>
+  <text x="24" y="559" fill="#8b949e" font-size="10" text-anchor="start" textLength="128.1" lengthAdjust="spacingAndGlyphs">portrait · monochrome</text>
+  <text x="416" y="559" fill="#8b949e" font-size="10" text-anchor="end" textLength="42.7" lengthAdjust="spacingAndGlyphs">84 × 52</text>
+</svg>

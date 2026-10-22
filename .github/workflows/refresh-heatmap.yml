@@ -1,0 +1,67 @@
+name: Refresh contribution heatmap
+
+"on":
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_contributions.py"
+      - "scripts/render_heatmap.py"
+      - "scripts/common.py"
+      - "scripts/validate_svg.py"
+      - "requirements.txt"
+      - "profile.json"
+      - ".github/workflows/refresh-heatmap.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-heatmap
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install the two heatmap dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Fetch public contribution HTML
+        env:
+          GH_USER: ${{ github.repository_owner }}
+        run: python scripts/fetch_contributions.py --username "$GH_USER" --output data/contributions.json
+
+      - name: Render and validate the heatmap
+        run: |
+          python scripts/render_heatmap.py --input data/contributions.json --output contrib-heatmap.svg
+          python scripts/validate_svg.py contrib-heatmap.svg
+
+      - name: Commit changed contribution data and artwork
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git add -- contrib-heatmap.svg data/contributions.json
+          if git diff --cached --quiet; then
+            echo "Contribution snapshot is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh contribution heatmap [skip ci]"
+          git push origin "HEAD:$DEFAULT_BRANCH"

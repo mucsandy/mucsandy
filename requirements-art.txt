@@ -1,0 +1,6 @@
+# Local artwork only; never installed by the scheduled workflow.
+-r requirements.txt
+Pillow>=10.4,<13
+numpy>=1.26,<3
+opencv-python-headless>=4.10,<5
+rembg[cpu]>=2.0.60,<3

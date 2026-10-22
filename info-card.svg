@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="620" height="479" viewBox="0 0 620 479" role="img" aria-labelledby="panel-title panel-description" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Monaco,'Courier New',monospace">
   <title id="panel-title">profile / neofetch</title>
-  <desc id="panel-description">mucsandy: Role: IT Solution Architekt; Now: Malteser Hilfsdienst · DE; Focus: AI · LLM Integration; Build: agentic pipelines; Stack: MS Copilot Agents; Langs: IT Native · RU Native; DE Native · EN C1; Loc: Munich, GER; Web: in Progress...</desc>
+  <desc id="panel-description">mucsandy: Role: IT Solution Architekt; Now: Malteser Hilfsdienst · DE; Focus: AI · LLM Integration; Build: agentic pipelines; Stack: MS Copilot Agents; Langs: RU Native; DE Native · EN C1; Loc: Munich, GER; Web: in Progress...</desc>
   <style>
 @keyframes appear { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .motion { animation: none !important; opacity: 1 !important; clip-path: none !important; } }
@@ -39,7 +39,7 @@
   </g>
   <g class="motion" style="animation:appear 0.32s ease-out 0.785s 1 both">
     <text x="30" y="325" fill="#7ee2b8" font-size="18" text-anchor="start" textLength="54.9" lengthAdjust="spacingAndGlyphs">Langs</text>
-    <text x="114.9" y="325" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="230.58" lengthAdjust="spacingAndGlyphs">IT Native · RU Native</text>
+    <text x="114.9" y="325" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="98.82" lengthAdjust="spacingAndGlyphs">RU Native</text>
   </g>
   <g class="motion" style="animation:appear 0.32s ease-out 0.89s 1 both">
     <text x="114.9" y="356" fill="#d3e3dc" font-size="18" text-anchor="start" textLength="186.66" lengthAdjust="spacingAndGlyphs">DE Native · EN C1</text>

@@ -6,7 +6,7 @@
     {"label": "Focus", "items": ["AI", "LLM Integration"]},
     {"label": "Build", "value": "agentic pipelines"},
     {"label": "Stack", "value": "MS Copilot Agents"},
-    {"label": "Langs", "items": ["IT Native", "RU Native"]},
+    {"label": "Langs", "items": ["RU Native"]},
     {"label": "", "items": ["DE Native", "EN C1"]},
     {"label": "Loc", "value": "Munich, GER"},
     {"label": "Web", "value": "in Progress..."}

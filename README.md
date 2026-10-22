@@ -17,7 +17,7 @@
       <img src="ascii-portrait.svg" width="314" height="414" alt="Monochrome ASCII portrait of mucsandy, typed row by row">
     </td>
     <td valign="top" align="center">
-      <img src="info-card.svg" width="536" height="414" alt="mucsandy. Role: IT Solution Architekt; Now: Malteser Hilfsdienst · DE; Focus: AI · LLM Integration; Build: agentic pipelines; Stack: MS Copilot Agents; Langs: IT Native · RU Native; DE Native · EN C1; Loc: Munich, GER; Web: in Progress...">
+      <img src="info-card.svg" width="536" height="414" alt="mucsandy. Role: IT Solution Architekt; Now: Malteser Hilfsdienst · DE; Focus: AI · LLM Integration; Build: agentic pipelines; Stack: MS Copilot Agents; Langs: RU Native; DE Native · EN C1; Loc: Munich, GER; Web: in Progress...">
     </td>
   </tr>
 </table>

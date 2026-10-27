@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1060" height="350" viewBox="0 0 1060 350" role="img" aria-labelledby="panel-title panel-description" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Monaco,'Courier New',monospace">
   <title id="panel-title">~/@mucsandy · contributions</title>
-  <desc id="panel-description">Public GitHub contributions for mucsandy, 2025-10-26 through 2026-10-26 (UTC). 12 contributions on 3 active days. Counts come from GitHub's per-day tooltips; colours use its supplied levels. Statistics cover this observed calendar window. Current streak is measured at the final source date, allowing the preceding day if the final day has no contributions. The calendar reveals once diagonally and remains visible.</desc>
+  <desc id="panel-description">Public GitHub contributions for mucsandy, 2025-10-26 through 2026-10-27 (UTC). 12 contributions on 3 active days. Counts come from GitHub's per-day tooltips; colours use its supplied levels. Statistics cover this observed calendar window. Current streak is measured at the final source date, allowing the preceding day if the final day has no contributions. The calendar reveals once diagonally and remains visible.</desc>
   <style>
 @keyframes appear { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .motion { animation: none !important; opacity: 1 !important; clip-path: none !important; } }
@@ -14,7 +14,7 @@
   <text x="64" y="25" fill="#8b949e" font-size="10.5" text-anchor="start" textLength="172.935" lengthAdjust="spacingAndGlyphs">~/@mucsandy · contributions</text>
   <text x="24" y="73" fill="#d3e3dc" font-size="20" text-anchor="start" textLength="256.2" lengthAdjust="spacingAndGlyphs">Contribution activity</text>
   <text x="1036" y="71" fill="#7ee2b8" font-size="10.5" text-anchor="end" textLength="153.72" lengthAdjust="spacingAndGlyphs">53 WEEKS · PUBLIC GITHUB</text>
-  <text x="24" y="94" fill="#8b949e" font-size="11" text-anchor="start" textLength="194.59" lengthAdjust="spacingAndGlyphs">2025-10-26 → 2026-10-26 · UTC</text>
+  <text x="24" y="94" fill="#8b949e" font-size="11" text-anchor="start" textLength="194.59" lengthAdjust="spacingAndGlyphs">2025-10-26 → 2026-10-27 · UTC</text>
   <text x="76" y="114" fill="#8b949e" font-size="10.5" text-anchor="start" textLength="19.215" lengthAdjust="spacingAndGlyphs">Nov</text>
   <text x="166" y="114" fill="#8b949e" font-size="10.5" text-anchor="start" textLength="19.215" lengthAdjust="spacingAndGlyphs">Dec</text>
   <text x="238" y="114" fill="#8b949e" font-size="10.5" text-anchor="start" textLength="44.835" lengthAdjust="spacingAndGlyphs">Jan '26</text>
@@ -1128,8 +1128,8 @@
   <rect x="1012" y="143" width="14" height="14" rx="2" fill="#161b22" data-date="2026-10-26" data-observed="true" data-count="0" data-level="0" class="motion" style="animation:appear 0.24s ease-out 1.204s 1 both">
     <title>2026-10-26 · 0 contributions</title>
   </rect>
-  <rect x="1012" y="161" width="14" height="14" rx="2" fill="#0d1117" stroke="#21262d" stroke-width="0.8" data-date="2026-10-27" data-observed="false" class="motion" style="animation:appear 0.24s ease-out 1.222s 1 both">
-    <title>2026-10-27 · upcoming day</title>
+  <rect x="1012" y="161" width="14" height="14" rx="2" fill="#161b22" data-date="2026-10-27" data-observed="true" data-count="0" data-level="0" class="motion" style="animation:appear 0.24s ease-out 1.222s 1 both">
+    <title>2026-10-27 · 0 contributions</title>
   </rect>
   <rect x="1012" y="179" width="14" height="14" rx="2" fill="#0d1117" stroke="#21262d" stroke-width="0.8" data-date="2026-10-28" data-observed="false" class="motion" style="animation:appear 0.24s ease-out 1.24s 1 both">
     <title>2026-10-28 · upcoming day</title>

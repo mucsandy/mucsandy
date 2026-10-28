@@ -135,6 +135,15 @@ Anzahl geschätzt. Ein verändertes oder unvollständiges HTML-Format führt zu 
 Fehler, damit ein bestehendes korrektes Ergebnis nicht mit erfundenen Daten
 überschrieben wird.
 
+Falls GitHubs angegebener Kalenderzeitraum nicht zu den tatsächlich gelieferten
+Tageszellen passt, wird online erneut abgerufen. Für solche widersprüchlichen
+Antworten und vorübergehende Verbindungs- oder HTTP-Fehler gelten zusammen
+höchstens drei Versuche, mit fünf beziehungsweise fünfzehn Sekunden Pause.
+Die Logmeldung nennt die angegebenen und die beobachteten Datumsgrenzen sowie
+die Zahl der Tageszellen. Bleibt der Fehler bestehen, wird nichts überschrieben.
+Andere Datenfehler brechen weiterhin sofort ab. Gespeicherte HTML-Dateien, die
+über `--html` eingelesen werden, werden einmal geprüft und nicht erneut geladen.
+
 Die dargestellte Spanne folgt dem tatsächlich gelesenen Kalender. Wochen laufen
 von Sonntag bis Samstag. Nicht zum gelieferten Zeitraum gehörende oder künftige
 Tage sind keine gemessenen Nulltage. Die Kennzahlen im Fußbereich beziehen sich

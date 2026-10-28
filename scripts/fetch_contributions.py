@@ -13,6 +13,7 @@ from datetime import date, datetime, timedelta, timezone
 import json
 from pathlib import Path
 import re
+import sys
 import time
 from typing import Any
 
@@ -28,6 +29,21 @@ TOTAL_RE = re.compile(r"^([0-9]+|[0-9]{1,3}(?:,[0-9]{3})+) contributions?\b")
 
 class CalendarError(ValueError):
     """The upstream HTML or a cached calendar is incomplete or inconsistent."""
+
+
+class CalendarRangeError(CalendarError):
+    """Calendar cells disagree with the range declared in the same response."""
+
+    def __init__(self, *, declared_start: date, declared_end: date,
+                 observed_start: date, observed_end: date, cell_count: int) -> None:
+        self.declared_start, self.declared_end = declared_start, declared_end
+        self.observed_start, self.observed_end = observed_start, observed_end
+        self.cell_count = cell_count
+        super().__init__(
+            "Dated cells do not cover GitHub's declared calendar range: "
+            f"declared {declared_start} through {declared_end}; "
+            f"observed {observed_start} through {observed_end} ({cell_count} cells)."
+        )
 
 
 def configured_username() -> str:
@@ -108,7 +124,10 @@ def parse_contribution_html(html: str, username: str, *, fetched_on: str | None 
         except ValueError as exc:
             raise CalendarError("Invalid GitHub calendar range metadata.") from exc
         if (declared_first, declared_last) != (first, last):
-            raise CalendarError("Dated cells do not cover GitHub's declared calendar range.")
+            raise CalendarRangeError(
+                declared_start=declared_first, declared_end=declared_last,
+                observed_start=first, observed_end=last, cell_count=len(days),
+            )
 
     source_total = None
     heading = soup.select_one("#js-contribution-activity-description")
@@ -136,30 +155,40 @@ def parse_contribution_html(html: str, username: str, *, fetched_on: str | None 
     }
 
 
-def fetch_html(username: str) -> str:
-    """Request only the public contribution endpoint, retrying transient errors."""
+def fetch_calendar(username: str) -> dict[str, Any]:
+    """Fetch and validate, sharing three attempts across transport/range errors."""
     url = public_url(username)
+    retry_delays = (5, 15)
+    max_attempts = len(retry_delays) + 1
     with requests.Session() as session:
         session.headers.update({
             "User-Agent": "github-profile-terminal/1.0 (public contribution calendar)",
             "Accept": "text/html",
             "Accept-Language": "en-US,en;q=0.8",
         })
-        for attempt in range(3):
+        for attempt in range(max_attempts):
             try:
                 response = session.get(url, timeout=(10, 45))
-                if response.status_code in (429, 500, 502, 503, 504) and attempt < 2:
+                try:
+                    response.raise_for_status()
+                    if "text/html" not in response.headers.get("Content-Type", "").lower():
+                        raise CalendarError("GitHub did not return an HTML contribution calendar.")
+                    return parse_contribution_html(response.text, username)
+                finally:
                     response.close()
-                    time.sleep(2 ** attempt)
-                    continue
-                response.raise_for_status()
-                if "text/html" not in response.headers.get("Content-Type", "").lower():
-                    raise CalendarError("GitHub did not return an HTML contribution calendar.")
-                return response.text
-            except (requests.Timeout, requests.ConnectionError):
-                if attempt == 2:
+            except (requests.Timeout, requests.ConnectionError, requests.HTTPError, CalendarRangeError) as exc:
+                if isinstance(exc, requests.HTTPError) and (
+                    exc.response is None or exc.response.status_code not in (429, 500, 502, 503, 504)
+                ):
                     raise
-                time.sleep(2 ** attempt)
+                if attempt == max_attempts - 1:
+                    print(f"Public calendar attempt {attempt + 1}/{max_attempts} failed; "
+                          "retry limit reached.", file=sys.stderr)
+                    raise
+                delay = retry_delays[attempt]
+                print(f"Public calendar attempt {attempt + 1}/{max_attempts} failed: {exc} "
+                      f"Retrying in {delay}s.", file=sys.stderr)
+                time.sleep(delay)
     raise CalendarError("Failed to fetch the public calendar.")  # pragma: no cover
 
 
@@ -170,8 +199,10 @@ def main() -> None:
     parser.add_argument("--html", type=Path, help="Read a saved GitHub HTML response instead of requesting it.")
     args = parser.parse_args()
     try:
-        html = args.html.read_text(encoding="utf-8") if args.html else fetch_html(args.username)
-        data = parse_contribution_html(html, args.username)
+        if args.html:
+            data = parse_contribution_html(args.html.read_text(encoding="utf-8"), args.username)
+        else:
+            data = fetch_calendar(args.username)
         atomic_write(args.output, json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     except (CalendarError, requests.RequestException, OSError) as exc:
         parser.exit(1, f"Calendar fetch failed; existing output left unchanged: {exc}\n")

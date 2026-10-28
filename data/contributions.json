@@ -7,7 +7,7 @@
   "calendar_end": "2026-10-28",
   "grid_start": "2025-10-26",
   "week_count": 53,
-  "source_total": 12,
+  "source_total": 13,
   "days": [
     {
       "date": "2025-10-26",
@@ -1846,8 +1846,8 @@
     },
     {
       "date": "2026-10-28",
-      "count": 0,
-      "level": 0
+      "count": 1,
+      "level": 1
     }
   ]
 }

@@ -1,7 +1,6 @@
 # Keep the original photograph and model cache local.
 assets/*
 !assets/.gitkeep
-!assets/README.md
 .cache/
 .u2net/
 .venv/

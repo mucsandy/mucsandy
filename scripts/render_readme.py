@@ -94,18 +94,6 @@ def write_readme(
   </tr>
 </table>
 
-<br>
-
-<p>
-  <sub>
-    Built with Python · Self-contained SVGs · Daily contribution refresh
-    <br>
-    <a href="./scripts/">Source</a> ·
-    <a href="./.github/workflows/refresh-heatmap.yml">Workflow</a> ·
-    <a href="./SETUP.md">Setup</a>
-  </sub>
-</p>
-
 </div>
 '''
     atomic_write(output, content)
